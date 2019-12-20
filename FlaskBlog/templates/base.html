@@ -1,0 +1,110 @@
+{% from 'bootstrap/form.html' import render_form %}
+<!DOCTYPE html>
+{% from 'macros.html' import fastlogin %}
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    {% assets "home_js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+    {% assets "home_css" %}
+        <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
+    {% endassets %}
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <title>FLASKBLOG</title>
+</head>
+<body>
+
+<div id="maintile">
+    <h1>FlaskBlog</h1>
+    快快乐乐
+    {% if current_user.is_authenticated %}
+        <ul class="loginkey">
+            <a href="{{ url_for('user.loginout') }}">
+                <li class="fa fa-sign-in"></li>
+                <p>登出</p>
+            </a>
+            <a href="{{ url_for('user.manager') }}">
+                <li class="fa fa-gear"></li>
+                <p>后台管理</p>
+            </a>
+        </ul>
+    {% else %}
+        <ul class="loginkey">
+            <li class="	fa fa-key  "></li>
+            <p>登录</p>
+        </ul>
+
+    {% endif %}
+</div>
+<div class="container-fluid ">
+    {% for message in get_flashed_messages() %}
+        <div class="alert-info alert">
+            {{ message }}
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+    {% endfor %}
+    <div class="row">
+        <div class="col-lg-2 d-none d-sm-block">
+        </div>
+
+        <div class="col-lg-6 ">
+
+            {% block content %}{% endblock %}
+        </div>
+        <div class="col-lg-4 d-none d-sm-block ">
+
+            {% block sidexuan %}
+            {% endblock %}
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+
+                    </div>
+                    <div class="col-md-3">
+                        <nav class="navbar bg-light side">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link 3</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <p> Powered by flask </p>
+</footer>
+<div class="popBox-content" id="popBox">
+    <li class="fa fa-close loginclose"></li>
+    <form action="{{ url_for('user.login') }}" method="POST">
+        {{ g.loginform.csrf_token }}
+        {{ g.loginform.username.label }}
+        {{ g.loginform.username }}
+        <br>
+        {{ g.loginform.password.label }}
+        {{ g.loginform.password }}
+        <br>
+        {{ g.loginform.submit }}
+    </form>
+</div>
+{% for ms in g.loginform.username.errors %}
+    <p>{{ ms }}</p>
+{% endfor %}
+{% for ms in g.loginform.password.errors %}
+    <p>{{ ms }}</p>
+{% endfor %}
+</body>
+</html>

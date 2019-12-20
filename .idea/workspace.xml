@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba4aca69-4f0a-4a0b-9a21-f9fa32040f58" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FlaskBlog$Flask__FlaskBlog___init___py_.coverage" NAME="Flask (FlaskBlog/__init__.py) Coverage Results" MODIFIED="1575554689998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlaskBlog$models.coverage" NAME="models Coverage Results" MODIFIED="1574150096620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlaskBlog" />
+    <SUITE FILE_PATH="coverage/FlaskBlog$FlaskBlog.coverage" NAME="FlaskBlog Coverage Results" MODIFIED="1575553508119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flaskblog" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flaskblog" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flaskblog" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flaskblog" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="admin: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flaskblog" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="post: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskBlog/bluepaints/blog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="931">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskBlog/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="931">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://495bffb1-ca68-49fc-980e-d4b890697ccb/schema/main/table/admin">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FlaskBlog/static/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskBlog/bluepaints/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+              <folding>
+                <element signature="e#0#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/addpost.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskBlog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+              <folding>
+                <element signature="e#24#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlaskBlog/bluepaints/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FlaskBlog/Temple/index.html" />
+        <option value="$PROJECT_DIR$/index.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/index.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/app.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/bluepaints/__init__.py" />
+        <option value="$PROJECT_DIR$/Blogvenv/until/assets.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/staitic/css/orginbase.css" />
+        <option value="$PROJECT_DIR$/FlaskBlog/static/css/orginbase1.css" />
+        <option value="$PROJECT_DIR$/FlaskBlog/static/css/orginbase.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/da26d192-2f17-49dd-8f72-0190dfb60f81/console.sql" />
+        <option value="$PROJECT_DIR$/FlaskBlog/extensions" />
+        <option value="$PROJECT_DIR$/FlaskBlog/until/extensions.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/fake.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/fakes.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/models.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/templates/auth.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/static/css/orginbase.less" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/FlaskBlog/bluepaints/user_bp.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/templates/addpost.html" />
+        <option value="$PROJECT_DIR$/FlaskBlog/templates/addclass.html" />
+        <option value="$PROJECT_DIR$/FlaskBlog/templates/post.html" />
+        <option value="$PROJECT_DIR$/FlaskBlog/templates/index.html" />
+        <option value="$PROJECT_DIR$/FlaskBlog/until/assets.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/util.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/until/context.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/templates/macros.html" />
+        <option value="$PROJECT_DIR$/.flaskenv" />
+        <option value="$PROJECT_DIR$/FlaskBlog/static/js/base.js" />
+        <option value="$PROJECT_DIR$/FlaskBlog/extensions.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/bluepaints/blog.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/templates/manager.html" />
+        <option value="$PROJECT_DIR$/FlaskBlog/form.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/setting.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/__init__.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/bluepaints/user.py" />
+        <option value="$PROJECT_DIR$/FlaskBlog/templates/base.html" />
+        <option value="$PROJECT_DIR$/FlaskBlog/static/css/base.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="1920" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlaskBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="bluepaints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="FlaskBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="until" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="FlaskBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (FlaskBlog) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FlaskBlog/__init__.py" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PyWeb\FlaskBlog\FlaskBlog\static" />
+      <recent name="D:\PyWeb\FlaskBlog" />
+      <recent name="D:\PyWeb\FlaskBlog\FlaskBlog" />
+      <recent name="D:\PyWeb\FlaskBlog\FlaskBlog\static\testjpg" />
+      <recent name="D:\PyWeb\FlaskBlog\FlaskBlog\bluepaints" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PyWeb\FlaskBlog\FlaskBlog\static\js" />
+      <recent name="D:\PyWeb\FlaskBlog\FlaskBlog\staitic\js" />
+      <recent name="D:\PyWeb\FlaskBlog\FlaskBlog\staitic\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.FlaskBlog">
+    <configuration name="FlaskBlog" type="PythonConfigurationType" factoryName="Python">
+      <module name="FlaskBlog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\PyWeb\FlaskBlog\Blogvenv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlaskBlog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlaskBlog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlaskBlog/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (FlaskBlog/__init__.py)" type="Python.FlaskServer" factoryName="Flask server" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host=0.0.0.0 --port=5000" />
+      <module name="FlaskBlog" />
+      <option name="target" value="D:\PyWeb\FlaskBlog\FlaskBlog\__init__.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PyWeb\FlaskBlog\Blogvenv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.Flask (FlaskBlog/__init__.py)" />
+      <item itemvalue="Python.FlaskBlog" />
+      <item itemvalue="Python.models" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba4aca69-4f0a-4a0b-9a21-f9fa32040f58" name="Default Changelist" comment="" />
+      <created>1573549985406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573549985406</updated>
+      <workItem from="1573549986846" duration="1021000" />
+      <workItem from="1573551425449" duration="10218000" />
+      <workItem from="1573620380214" duration="2826000" />
+      <workItem from="1573642457889" duration="10187000" />
+      <workItem from="1573698792962" duration="1857000" />
+      <workItem from="1573722906588" duration="13036000" />
+      <workItem from="1573777224807" duration="9868000" />
+      <workItem from="1573822972617" duration="3499000" />
+      <workItem from="1573826483374" duration="6150000" />
+      <workItem from="1573863754311" duration="1013000" />
+      <workItem from="1573864913700" duration="32367000" />
+      <workItem from="1573967701985" duration="3820000" />
+      <workItem from="1573986309472" duration="11380000" />
+      <workItem from="1574070276622" duration="12744000" />
+      <workItem from="1574130608752" duration="10931000" />
+      <workItem from="1574165395147" duration="2786000" />
+      <workItem from="1574247176110" duration="2060000" />
+      <workItem from="1574324924175" duration="2748000" />
+      <workItem from="1574382388491" duration="5906000" />
+      <workItem from="1574469647664" duration="13769000" />
+      <workItem from="1574555246443" duration="1539000" />
+      <workItem from="1574581013330" duration="1248000" />
+      <workItem from="1574672434837" duration="16593000" />
+      <workItem from="1574734836367" duration="13374000" />
+      <workItem from="1574854577522" duration="9550000" />
+      <workItem from="1574938556131" duration="9489000" />
+      <workItem from="1575018578844" duration="13326000" />
+      <workItem from="1575077634906" duration="7038000" />
+      <workItem from="1575179142782" duration="6925000" />
+      <workItem from="1575276253012" duration="14233000" />
+      <workItem from="1575331062477" duration="9754000" />
+      <workItem from="1575426715584" duration="6522000" />
+      <workItem from="1575457742933" duration="9591000" />
+      <workItem from="1575535589241" duration="11922000" />
+      <workItem from="1575550845289" duration="6029000" />
+      <workItem from="1575594846701" duration="8325000" />
+      <workItem from="1575628014836" duration="14761000" />
+      <workItem from="1575678820277" duration="7218000" />
+      <workItem from="1575699827396" duration="10217000" />
+      <workItem from="1575765490324" duration="5323000" />
+      <workItem from="1575790667948" duration="9110000" />
+      <workItem from="1575817086781" duration="1899000" />
+      <workItem from="1575863861352" duration="5348000" />
+      <workItem from="1575907347458" duration="1821000" />
+      <workItem from="1575969516247" duration="9730000" />
+      <workItem from="1576487777075" duration="17113000" />
+      <workItem from="1576738258275" duration="12146000" />
+      <workItem from="1576818098437" duration="4308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="402638000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16085792" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2641243" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328877" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003349" side_tool="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996651" visible="true" weight="0.1713881" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32909605" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.117292225" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/public/css/common.css" />
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/testjpg/黑屏.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/testjpg/48540923dd54564e1b0bc1efb9de9c82d0584ffd.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/testjpg/c2cec3fdfc03924597c955f08c94a4c27c1e25d4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/da26d192-2f17-49dd-8f72-0190dfb60f81/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://da26d192-2f17-49dd-8f72-0190dfb60f81/schema/main/table/sqlite_master" />
+    <entry file="das://9e716d4a-77e8-4864-8186-b1e8b57e33ca/schema/main/table/user_1" />
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/extensions" />
+    <entry file="das://9e716d4a-77e8-4864-8186-b1e8b57e33ca/schema/main/table/user" />
+    <entry file="file://$PROJECT_DIR$/Blogvenv/Lib/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="834" selection-start-line="834" selection-end-line="834" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9e716d4a-77e8-4864-8186-b1e8b57e33ca/schema/main/table/sqlite_master" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9e716d4a-77e8-4864-8186-b1e8b57e33ca/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/Pipfile.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/355d917b-9d24-4661-b866-7b7f5c54b5d8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/295d1475-6691-46dd-9083-d676f39e2e9a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ca92000c-b9ce-43eb-81f5-4a97597af7dc/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/652a7519-e956-4e6c-9178-a0ae9053d99b/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/auth.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/495bffb1-ca68-49fc-980e-d4b890697ccb/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/css/bootstrap-reboot.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/css/orginbase.less" />
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/fakes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://495bffb1-ca68-49fc-980e-d4b890697ccb/schema/main/table/post">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/js/bootstrap.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="2272" column="66" lean-forward="true" selection-start-line="2272" selection-start-column="66" selection-end-line="2272" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="103" selection-start-line="25" selection-start-column="103" selection-end-line="25" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.flaskenv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/Pipfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/addclass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blogvenv/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38703">
+          <caret line="2096" selection-start-line="2096" selection-end-line="2096" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/macros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/extensions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/until/assets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/until/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/until/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://495bffb1-ca68-49fc-980e-d4b890697ccb/schema/main/table/admin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/addpost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/bluepaints/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/bluepaints/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/bluepaints/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlaskBlog/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

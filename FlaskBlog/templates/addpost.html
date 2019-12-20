@@ -1,0 +1,10 @@
+{% extends 'manager.html' %}
+{% from 'bootstrap/form.html' import render_form %}
+
+<h4>添加新文章</h4>
+{% block maincontent %}
+    {{ render_form(form) }}
+{% endblock %}
+{% block script %}
+    <script type="text/javascript" src="{{ url_for("static",filename='ckeditor/ckeditor.js') }}"></script>
+{% endblock %}

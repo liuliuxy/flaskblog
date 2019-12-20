@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block script %}
+        <title>FlaskManager</title>
+        {% assets "home_js" %}
+
+            <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+        {% endassets %}
+        {% assets "home_css" %}
+            <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
+        {% endassets %}
+    {% endblock %}
+</head>
+<body>
+{% block maincontent %}
+    <h1>Flask后台管理系统</h1>
+    <a class="btn btn-primary" href="{{ url_for('.addpost') }}">添加文章</a>
+    <a class="btn btn-primary" href="{{ url_for('.addclass') }}">添加文章分类</a>
+{% endblock %}
+{% for message in get_flashed_messages() %}
+    <div class="alert-info alert">
+        {{ message[1] }}
+    </div>
+{% endfor %}
+</body>
+</html>

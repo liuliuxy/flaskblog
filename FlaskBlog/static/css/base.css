@@ -1,0 +1,151 @@
+h1 {
+
+}
+
+#maintile {
+    background: #00aaaa;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+
+.lunbo {
+    width: 100%;
+    height: 270px;
+}
+
+.side {
+    position: fixed;
+    margin-top: 10%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-inner {
+
+}
+
+p {
+    word-break: break-all;
+}
+
+container-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.jianjie {
+    width: 45%;
+}
+
+.tu {
+    width: 50%;
+}
+
+.ss {
+
+}
+
+.postdan {
+    margin-top: 5%;
+    box-shadow: 0px 0px 6px 10px #ced4da;
+}
+
+.posttitle {
+    background-color: #9ddfe9;
+    text-align: center;
+}
+
+.postbody {
+    background-color: #9ddfe9;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.managerbtn {
+    float: right;
+}
+
+.tubaiof {
+    width: 8%;
+    text-align: center;
+}
+
+.tubiaoson {
+}
+
+.smallnumber {
+}
+
+.pagetion {
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+a {
+    display: block;
+}
+
+
+.popBox-mask {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .6;
+    z-index: 999;
+    background-color: #000;
+}
+
+.popBox-content {
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    /*transform: translate(-50%, -50%);*/
+    z-index: 999;
+    background: #9ddfe9;
+    height: 30%;
+    width: 30%;
+    display: none;
+}
+
+.loginkey {
+    position: fixed;
+    top: 2%;
+    right: 3%;
+    text-align: center;
+}
+
+.loginkey a{
+     display: inline-block;
+}
+
+.loginclose {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}

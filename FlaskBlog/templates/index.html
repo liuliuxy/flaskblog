@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% from "macros.html" import pager %}
+{% block content %}
+    {% if posts %}
+        <div class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <div class="carousel-inner img-fluid ">
+                <div class="carousel-item active lunbo">
+                    <img class="img-fluid"
+                         src="{{ url_for('static',filename='testjpg/48540923dd54564e1b0bc1efb9de9c82d0584ffd.jpg') }}"
+                         width="100%" height="100%">
+                    <div class="carousel-caption">
+                        <h3>第一张图片描述标题</h3>
+                        <p>描述文字!</p>
+                    </div>
+                </div>
+                <div class="carousel-item lunbo">
+                    <img class="img-fluid"
+                         src="{{ url_for('static',filename='testjpg/c2cec3fdfc03924597c955f08c94a4c27c1e25d4.jpg') }}"
+                         width="100%" height="100%">
+                    <div class="carousel-caption">
+                        <h3>第二张图片描述标题</h3>
+                        <p>描述文字!</p>
+                    </div>
+                </div>
+                <div class="carousel-item lunbo">
+                    <img class="img-fluid" src="{{ url_for('static',filename='testjpg/timgKSWVCKQH.jpg') }}"
+                         width="100%" height="100%">
+                    <div class="carousel-caption">
+                        <h3>第三张图片描述标题</h3>
+                        <p>描述文字!</p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        {% for post in posts %}
+
+            <div class="d-flex flex-row justify-content-start postdan">
+
+                <div class="p-1 tu" style="background: #0c5460">
+                    <a href="{{ url_for('.show_post',post_id=post.id) }}" style="width: 100%;height: 100%">
+                        <img src="{{ url_for('static',filename='testjpg/黑屏.bmp') }}" width="100%" height="100%">
+                    </a>
+
+                </div>
+
+                <div style="background:sandybrown " class="p-1 jianjie">
+                    <div>
+                        <a href="{{ url_for('.show_post',post_id=post.id) }}">
+                            <h5>{{ post.title }}</h5>
+                            <p>{{ post.body|safe }}</p>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="p-1 tubaiof align-self-center">
+                    <div class="d-flex flex-column">
+                        <div class="p-1 ">
+                            <i class="fa fa-eye  align-self-center"></i>
+                            <small class="smallnumber">541k</small>
+                        </div>
+                        <div class="p-1 ">
+                            <i class="fa fa-thumbs-up  align-self-center"></i>
+                            <small class="smallnumber">541k</small>
+                        </div>
+                        <div class="p-1 ">
+                            <i class="fa fa-comment align-self-center "></i>
+                            <small class="smallnumber">541k</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        {% endfor %}
+        {{ pager(pagination) }}
+    {% else %}
+        <h5>no post</h5>
+    {% endif %}
+
+{% endblock %}
+
+{% block sidexuan %}
+
+{% endblock %}
+
